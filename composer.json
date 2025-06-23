@@ -1,0 +1,18 @@
+{
+    "name": "mimicak/camera-capture",
+    "description": "A standalone PHP library for capturing still images from IP cameras using snapshot URLs or MJPEG streams. Ideal for surveillance, automation, or IoT applications where lightweight, server-side image capture is needed without browser interaction.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mimicak\\CameraCapture\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashok kumar",
+            "email": "muthurose2204@gmail.com"
+        }
+    ],
+    "require": {}
+}
