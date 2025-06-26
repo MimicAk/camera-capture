@@ -101,14 +101,14 @@ class CameraFactory
         });
 
         $this->registerCameraType(CameraTypes::TYPE_HIKVISION, function (array $config): HikvisionCamera {
-            if (empty($config['options']['snapshotChannel'])) {
-                throw new CameraCaptureException("Missing 'options.snapshotChannel' for Hikvision camera.");
+            if (empty($config['options']['snapshotUrlPath'])) {
+                throw new CameraCaptureException("Missing 'options.snapshotUrlPath' for Hikvision camera.");
             }
             return new HikvisionCamera(
                 $config['id'],
                 $config['brand'],
                 $config['host'],
-                $config['options']['snapshotChannel'],
+                $config['options']['snapshotUrlPath'],
                 $config['model'] ?? null
             );
         });
