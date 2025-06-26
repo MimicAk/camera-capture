@@ -32,10 +32,7 @@ class HikvisionCamera extends AbstractCamera
     public function captureImage(): string
     {
         // $url = "http://{$this->host}/ISAPI/Streaming/channels/{$this->snapshotChannel}/picture";
-        $url = "http://{$this->host}/{$this->snapshotChannel}";
-
-
-        var_dump($url);
+        $url = "http://{$this->host}{$this->snapshotChannel}";
 
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
