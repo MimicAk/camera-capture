@@ -1,6 +1,6 @@
 <?php
 
-namespace CameraCapture\Exceptions;
+namespace Mimicak\CameraCapture\Exceptions;
 
 use Exception;
 

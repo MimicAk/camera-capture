@@ -1,6 +1,6 @@
 <?php
 
-namespace CameraCapture;
+namespace Mimicak\CameraCapture;
 
 /**
  * Interface CameraInterface

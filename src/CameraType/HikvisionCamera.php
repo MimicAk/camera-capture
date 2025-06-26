@@ -1,9 +1,9 @@
 <?php
 
-namespace CameraCapture\CameraType;
+namespace Mimicak\CameraCapture\CameraType;
 
-use CameraCapture\AbstractCamera;
-use CameraCapture\Exceptions\CameraCaptureException;
+use Mimicak\CameraCapture\AbstractCamera;
+use Mimicak\CameraCapture\Exceptions\CameraCaptureException;
 
 /**
  * Class HikvisionCamera

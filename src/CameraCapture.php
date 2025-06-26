@@ -1,8 +1,8 @@
 <?php
 
-namespace CameraCapture;
+namespace Mimicak\CameraCapture;
 
-use CameraCapture\Exceptions\CameraCaptureException;
+use Mimicak\CameraCapture\Exceptions\CameraCaptureException;
 
 /**
  * Class CameraCapture
