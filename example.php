@@ -11,9 +11,9 @@ require_once __DIR__ . '/src/CameraFactory.php';
 require_once __DIR__ . '/src/CameraTypes.php';
 require_once __DIR__ . '/src/CameraCapture.php';
 
-use CameraCapture\CameraCapture;
-use CameraCapture\CameraTypes;
-use CameraCapture\Exceptions\CameraCaptureException;
+use MimicAk\CameraCapture\CameraCapture;
+use MimicAk\CameraCapture\CameraTypes;
+use MimicAk\CameraCapture\Exceptions\CameraCaptureException;
 
 // --- Define Camera Configurations ---
 // Configurations use the 'options' array for type-specific settings.
@@ -37,7 +37,7 @@ $cameraConfigs = [
         'host' => '192.168.1.101', // Replace with your camera's IP
         'username' => 'user',
         'password' => 'securepass',
-        'options' => ['snapshotUrlPath' => '/cgi-bin/currentpic.cgi'], // HTTP Snapshot uses snapshotUrlPath
+        'options' => ['snapshotUrlPath' => 'snap.jpg'], // HTTP Snapshot uses snapshotUrlPath
     ],
 ];
 
