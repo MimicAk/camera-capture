@@ -30,4 +30,20 @@ final class CameraTypes
      * ONVIF Camera: Placeholder for future ONVIF camera support.
      */
     public const TYPE_ONVIF = 'onvif';
+
+
+    /**
+     * Return all camera types as an associative array
+     *
+     * @return array
+     */
+    public static function asArray(): array
+    {
+        return [
+            self::TYPE_HTTP_SNAPSHOT => 'HTTP Snapshot',
+            self::TYPE_HIKVISION => 'Hikvision',
+            self::TYPE_AXIS => 'Axis (Coming Soon)',
+            self::TYPE_ONVIF => 'ONVIF (Coming Soon)',
+        ];
+    }
 }

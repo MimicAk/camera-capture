@@ -275,4 +275,4 @@ MIT License (or specify your preferred license).
 Contributions are welcome! Please submit pull requests or open issues on the [GitHub repository](#).
 
 ## Contact
-For support, contact [your-email@example.com] or open an issue on GitHub.
+For support, contact [muthurose2204@gmail.com] or open an issue on GitHub.
